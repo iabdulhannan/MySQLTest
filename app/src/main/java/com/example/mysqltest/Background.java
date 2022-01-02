@@ -49,8 +49,7 @@ public class Background extends AsyncTask<String, Void, String> {
         String user = voids[0];
         String pass = voids[1];
 
-//        String connstr = "http://yourIPhere:8080/login.php";
-        String connstr = "http://192.168.18.17:80/Practice/AndroidMySQL/androidTest.php";
+        String connstr = "http://Your-IP:80/Practice/AndroidMySQL/androidTest.php";
 
         try {
             URL url = new URL(connstr);
